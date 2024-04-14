@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' , 'sans-serif';
+    border: border-box;
+
+}
+body{
+     background: #000000; 
+    color: white;
+}
+.header{
+    width: 84%;
+    height: 96vh;
+    background-image:  url( "netflix_backimg.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+    
+
+
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #ffffff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.language{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #ffffff;
+    padding: 7ox 10px;
+}
+
+.header-content{
+    position: absolute;
+    top: 42%;
+    left: 48%;
+    transform: translate(-42%,-48%);
+    margin-top: 100px;
+
+
+}
+
+.header-content h1{
+    font-size: 61px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+}
+.header-content h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.email-signup {
+    background: #ffffff;
+    border-radius: 4px;
+    display: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.email-signup input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+}
+.email-signup button{
+    background: #db0001;
+    border: 20px;
+    outline: 0;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+     padding: 15px 30px; 
+     
+}
+
+.features{
+    padding: 50px 12%;
+    font-size: 22px;
+
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+
+
+
+}
+
+.img-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-col img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+.features h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+
+.faq{
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+}
+.faq h2{
+    font-size: 500;
+    font-size: 40px;
+}
